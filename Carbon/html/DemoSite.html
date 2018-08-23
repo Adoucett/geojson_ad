@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Planet Alpha Test Map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='map'></div>
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoicGxhbmV0YWxwaGEiLCJhIjoiY2piM3p2bHl0MXhrdTJxbjJoYWZ0aTdsaCJ9.7rSS3ij4FyR71MCjFrOPuw'; 
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/planetalpha/cjl6udkum13t82sl4k5laczzz',
+      center: [-87.661557, 41.893748],
+      zoom: 3.5
+    });
+	
+		var hoveredStateId =  null;
+	
+    // code from the next step will go here
+	
+
+
+	map.on('load', function () {
+    map.addSource("dots_src", {
+        "type": "geojson",
+        "data": "https://raw.githubusercontent.com/Adoucett/geojson_ad/master/Carbon/ARB_Sites_v1.geojson"
+    });
+	
+	 map.addLayer({
+        "id": "dots",
+        "type": "circle",
+        "source": "dots_src",
+        "layout": {},
+        "paint": {
+			   "circle-radius": ["case",
+                ["boolean", ["feature-state", "hover"], false],
+                20,
+                12
+            ],
+				"circle-opacity": ["case",
+                ["boolean", ["feature-state", "hover"], false],
+                .5,
+                .9
+            ],
+			"circle-color": ["case",
+                ["boolean", ["feature-state", "hover"], false],
+                "#DAE7F1",
+                "#468ACB"
+            ]
+        }
+    });
+	
+	
+
+	
+	
+    // When the user moves their mouse over the state-fill layer, we'll update the
+    // feature state for the feature under the mouse.
+    map.on('mousemove', "dots", function(e) {
+        
+            if (hoveredStateId) {
+                map.setFeatureState({source: 'dots_src', id: hoveredStateId}, { hover: false});
+            }
+            hoveredStateId = e.features[0].ID;
+            map.setFeatureState({source: 'dots_src', id: hoveredStateId}, { hover: true});
+        
+    });
+
+    // When the mouse leaves the state-fill layer, update the feature state of the
+    // previously hovered feature.
+    map.on("mouseleave", "dots", function() {
+        if (hoveredStateId) {
+            map.setFeatureState({source: 'dots_src', id: hoveredStateId}, { hover: false});
+        }
+		
+        hoveredStateId =  null;
+		
+    });
+});	
+	
+	
+	
+	
+	    map.on("mouseenter", 'dots', function(e) {
+        // Change the cursor style as a UI indicator.
+        map.getCanvas().style.cursor = 'pointer';
+		 });
+		 
+		   map.on('mouseleave', 'dots', function() {
+        map.getCanvas().style.cursor = '';
+        
+    }); 
+		 
+		 
+	
+	map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['nee-sites'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h3>' + feature.properties.Name + '</h3><p>' + feature.properties.Site_Name + '</p>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+});
+	
+	
+	map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['arb-sites'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h3>' + feature.properties.Name + '</h3><p>' + feature.properties.CARID + '</p>' + feature.properties.sitelocation + '</p>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+});	
+	
+	
+ 
+	
+	
+	
+	
+	
+    </script>
+  </body>
+</html>
