@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 "name": "NEE_Sites_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+
 "features": [
 { "type": "Feature", "properties": { "OBJECTID_1": 1, "OBJECTID": 1, "NEE_Site": "Australia", "Name": "Tumbarumba", "Biome": "Temperate, broadleaved evergreen forest", "Site_Name": "AU-Tum", "lat": -35.725, "lon": 148.13 }, "geometry": { "type": "Point", "coordinates": [ 148.130431534628656, -35.725257404827573 ] } },
 { "type": "Feature", "properties": { "OBJECTID_1": 2, "OBJECTID": 2, "NEE_Site": "Austria", "Name": "Stubai Valley", "Biome": "alpine meadow", "Site_Name": "AT-Neu", "lat": 47.12, "lon": 11.32 }, "geometry": { "type": "Point", "coordinates": [ 11.319999694824162, 47.119998931884822 ] } },
