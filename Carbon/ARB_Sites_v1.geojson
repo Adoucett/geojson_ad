@@ -1,63 +1,1317 @@
-{
-"type": "FeatureCollection",
-"name": "ARB_Sites_v1",
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1, "ID": 6, "CARID": "CAR497", "ARB_SITES": "NA", "ID2": "CAFR0029", "sitelocati": "Blue Source – Alligator River (Hyde County, NC)", "Name": "Alligator River", "LONG_": "-76.030512271", "LAT": "35.630839483", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -76.030512270999964, 35.630839483000045 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 2, "ID": 15, "CARID": "CAR658", "ARB_SITES": "CAR1134", "ID2": "CAFR0087", "sitelocati": "Finite Carbon – Brosnan Forest (Near Charleston, SC)", "Name": "Brosnan Forest", "LONG_": "-80.449996948", "LAT": "33.1666717530001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -80.449996947999978, 33.16667175300006 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 3, "ID": 10, "CARID": "CAR645", "ARB_SITES": "CAR1088", "ID2": "CAFR0080", "sitelocati": "Finite Carbon – The Forestland Group Champion Property (Franklin, St. Lawrence & Lewis Counties, NY)", "Name": "Champion Property", "LONG_": "-74.9999999999999", "LAT": "44.2999992370001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.0, 44.299999237000065 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 4, "ID": 14, "CARID": "CAR657", "ARB_SITES": "CAR1063", "ID2": "CAFR0002", "sitelocati": "Finite Carbon Farm Cove Community Forest Project (Near Grand Lake Stream, Maine)", "Name": "Farm Cove Community Forest Project", "LONG_": "-67.8509512269999", "LAT": "45.1873169030001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -67.850951226999939, 45.187316903000067 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 5, "ID": 19, "CARID": "CAR672", "ARB_SITES": "NA", "ID2": "CAFR0116", "sitelocati": "Hershey Mountain (North of Concord, NH)", "Name": "Hershey Mountain", "LONG_": "-71.6666564939999", "LAT": "43.566669464", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -71.666656493999938, 43.566669464000029 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 6, "ID": 29, "CARID": "CAR749", "ARB_SITES": "CAR1109", "ID2": "CAFR0063", "sitelocati": "Green Assets – Middleton (Charleston, SC)", "Name": "Middleton Place Avoided Conversion Project", "LONG_": "-80.140556335", "LAT": "32.900001526", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -80.140556334999985, 32.90000152600004 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 7, "ID": 32, "CARID": "CAR802", "ARB_SITES": "NA", "ID2": "CAFR0027", "sitelocati": "Noles South Forest Project (Washington County, NC)", "Name": "Noles South Forest Project", "LONG_": "-76.547782898", "LAT": "35.8647193910001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -76.54778289799998, 35.864719391000051 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 8, "ID": 48, "CARID": "CAR1175", "ARB_SITES": "NA", "ID2": "CAFR5195", "sitelocati": "Finite Carbon – Passamaquoddy Tribe (Frankin, Somerset, Penobscot, Hancock, and Washington Counties, ME)", "Name": "Passamaquoddy Tribe", "LONG_": "-67.6300958689999", "LAT": "45.2880452910001", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -67.630095868999945, 45.28804529100006 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 9, "ID": 20, "CARID": "CAR676", "ARB_SITES": "NA", "ID2": "CAFR0031", "sitelocati": "Pocosin Lakes Forest Conservation Project (Tyrrell County, NC)", "Name": "Pocosin Lakes Forest", "LONG_": "-76.209159851", "LAT": "35.861938477", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -76.209159850999981, 35.861938477000024 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 10, "ID": 12, "CARID": "CAR648", "ARB_SITES": "CAR1086", "ID2": "CAFR0047", "sitelocati": "Finite Carbon – Potlatch Moro Big Pine CE (Calhoun County, AR)", "Name": "Potlatch Moro Big Pine", "LONG_": "-92.5400009159999", "LAT": "33.5000000000001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -92.54000091599994, 33.5 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 11, "ID": 26, "CARID": "CAR696", "ARB_SITES": "CAR1159", "ID2": "CAFR0057", "sitelocati": "Rich Mountain (Russell & Washington Counties, NW of Saltville, VA)", "Name": "Rich Mountain", "LONG_": "-82.029845154", "LAT": "36.8313801040001", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -82.029845153999986, 36.831380104000061 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 12, "ID": 31, "CARID": "CAR780", "ARB_SITES": "CAR1062", "ID2": "CAFR0088", "sitelocati": "Shannondale Tree Farm (Washington County, NC)", "Name": "Shannondale Tree Farm", "LONG_": "-91.449996948", "LAT": "37.3666610720001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -91.449996947999978, 37.366661072000056 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 13, "ID": 27, "CARID": "CAR697", "ARB_SITES": "CAR1147", "ID2": "CAFR0102", "sitelocati": "Tazewell – Elk Garden (Russell, Washington, and Tazewell Co. near Tazewel)", "Name": "Tazewell – Elk Garden", "LONG_": "-81.559448242", "LAT": "37.1236114500001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -81.559448241999974, 37.123611450000055 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 14, "ID": 55, "CARID": "CAR1213", "ARB_SITES": "NA", "ID2": "CAFR5313", "sitelocati": "MWF Adirondacks (Franklin, St. Lawrence & Lewis Counties, NY)", "Name": "Adirondacks", "LONG_": "-74.910003662", "LAT": "44.3499984740001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.910003661999951, 44.349998474000074 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 15, "ID": 13, "CARID": "CAR655", "ARB_SITES": "NA", "ID2": "CAFR0105", "sitelocati": "Alder Stream Preserve (Piscataquis County, ME)", "Name": "Alder Stream Preserve", "LONG_": "-69.014634073", "LAT": "45.1138059350001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -69.014634072999968, 45.113805935000073 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 16, "ID": 53, "CARID": "CAR1204", "ARB_SITES": "NA", "ID2": "CAFR5304", "sitelocati": "AMC Silver Lake (Piscataquis & Aroostock Counties, ME)", "Name": "AMC Silver Lake", "LONG_": "-69.150001526", "LAT": "45.4399986270001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -69.150001525999983, 45.43999862700008 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 17, "ID": 33, "CARID": "CAR935", "ARB_SITES": "NA", "ID2": "NA", "sitelocati": "Arcata City Barnum Tract (Arcata, CA)", "Name": "Arcata City Barnum Tract", "LONG_": "-124.049388366", "LAT": "40.876230105", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -124.04938836599996, 40.876230105000047 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 18, "ID": 7, "CARID": "CAR575", "ARB_SITES": "NA", "ID2": "NA", "sitelocati": "Arcata Sunnybrae Tract (Humbodlt County, CA)", "Name": "Arcata Sunnybrae Tract", "LONG_": "-124.050167828", "LAT": "40.8643067730001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -124.050167827999985, 40.864306773000067 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 19, "ID": 42, "CARID": "CAR1094", "ARB_SITES": "NA", "ID2": "CAFR5095", "sitelocati": "Ashford III (Ashford, WA)", "Name": "Ashford III", "LONG_": "-122.040000916", "LAT": "46.4599990840001", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -122.04000091599994, 46.45999908400006 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 20, "ID": 3, "CARID": "CAR408", "ARB_SITES": "CAR1100", "ID2": "CAFR0041", "sitelocati": "Big River \/ Salmon Creek Forests (Mendocino, CA)", "Name": "Big River \/ Salmon Creek Forests", "LONG_": "-123.66968328", "LAT": "39.300879579", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.669683279999958, 39.300879579000025 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 21, "ID": 41, "CARID": "CAR1092", "ARB_SITES": "NA", "ID2": "CAFR5087", "sitelocati": "Big Valley (Near Aiden, CA)", "Name": "Big Valley", "LONG_": "-121.239997864", "LAT": "41.1300010680001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -121.239997863999974, 41.13000106800007 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 22, "ID": 8, "CARID": "CAR582", "ARB_SITES": "CAR1130", "ID2": "CAFR0103", "sitelocati": "Finite Carbon – MWF Brimstone IFM Project I (Scott County, TN)", "Name": "Brimstone IFM Project I", "LONG_": "-84.454719543", "LAT": "36.2722206120001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -84.454719542999953, 36.272220612000069 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 23, "ID": 43, "CARID": "CAR1095", "ARB_SITES": "NA", "ID2": "CAFR5096", "sitelocati": "Brushy Mountain (Mendocino County, CA)", "Name": "Brushy Mountain", "LONG_": "-123.260002136", "LAT": "39.6300010680001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.260002135999969, 39.63000106800007 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 24, "ID": 39, "CARID": "CAR1066", "ARB_SITES": "NA", "ID2": "CAFR5058", "sitelocati": "Buck Mountain ARB002 (Siskiyou County, CA)", "Name": "Buck Mountain", "LONG_": "-121.849998474", "LAT": "41.3800010680001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -121.84999847399996, 41.38000106800007 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 25, "ID": 34, "CARID": "CAR1013", "ARB_SITES": "NA", "ID2": "CAFR5055", "sitelocati": "Buckeye Forest Project (Sonoma County, CA)", "Name": "Buckeye Forest", "LONG_": "-123.309997559", "LAT": "38.7400016780001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.309997558999953, 38.740001678000056 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 26, "ID": 47, "CARID": "CAR1114", "ARB_SITES": "NA", "ID2": "CAFR5114", "sitelocati": "Crane Valley (Humboldt, CA)", "Name": "Crane Valley", "LONG_": "-123.606376648", "LAT": "40.712501526", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -123.60637664799998, 40.71250152600004 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 27, "ID": 22, "CARID": "CAR683", "ARB_SITES": "NA", "ID2": "CAFR0030", "sitelocati": "Francis Beidler Project (Berkely, Dorchester and Orangeburg Counties, SC)", "Name": "Francis Beidler Project", "LONG_": "-80.358348038", "LAT": "33.3212620520001", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -80.358348037999974, 33.321262052000066 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 28, "ID": 46, "CARID": "CAR1104", "ARB_SITES": "NA", "ID2": "CAFR5150", "sitelocati": "Forest Carbon Partners – Gabrych Ranch Project (Humboldt County and Trinity County, CA)", "Name": "Gabrych Ranch Project", "LONG_": "-123.606376648", "LAT": "40.712501526", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.60637664799998, 40.71250152600004 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 29, "ID": 2, "CARID": "CAR102", "ARB_SITES": "CAR1098", "ID2": "CAFR0040", "sitelocati": "Garcia River Forest (Mendocino, CA)", "Name": "Garcia River Forest", "LONG_": "-123.510002136", "LAT": "38.9099998470001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.510002135999969, 38.909999847000051 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 30, "ID": 45, "CARID": "CAR1103", "ARB_SITES": "NA", "ID2": "CAFR5149", "sitelocati": "Forest Carbon Partners – Glass Ranch Improved Forest Management Project (Humboldt County, CA)", "Name": "Glass Ranch Improved Forest", "LONG_": "-123.643890381", "LAT": "40.34582901", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.643890380999949, 40.345829010000045 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 31, "ID": 17, "CARID": "CAR660", "ARB_SITES": "CAR1099", "ID2": "CAFR0042", "sitelocati": "Gualala River Forest (Southern Mendocino County, Near Gualala, CA)", "Name": "Gualala River Forest", "LONG_": "-123.402474887", "LAT": "38.7961548070001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.402474886999983, 38.79615480700005 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 32, "ID": 51, "CARID": "CAR1191", "ARB_SITES": "NA", "ID2": "CAFR5291", "sitelocati": "Hollow Tree (Mendicino County, CA)", "Name": "Hollow Tree", "LONG_": "-123.782348912", "LAT": "39.8499151990001", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -123.782348911999975, 39.849915199000066 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 33, "ID": 21, "CARID": "CAR681", "ARB_SITES": "NA", "ID2": "CAFR0106", "sitelocati": "Howland Research Forest (Howland, ME)", "Name": "Howland Research Forest", "LONG_": "-68.6266708369999", "LAT": "45.2463912960001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -68.626670836999949, 45.24639129600007 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 34, "ID": 11, "CARID": "CAR646", "ARB_SITES": "NA", "ID2": "NA", "sitelocati": "Katahdin Iron Works Ecological Reserve (Piscataquis County, ME)", "Name": "Katahdin Iron Works Ecological Reserve", "LONG_": "-69.1699981689999", "LAT": "45.450000763", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -69.169998168999939, 45.450000763000048 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 35, "ID": 9, "CARID": "CAR590", "ARB_SITES": "NA", "ID2": "NA", "sitelocati": "Lompico Forest Carbon Project (Santa Cruz County, CA)", "Name": "Lompico Forest", "LONG_": "-122.040000916", "LAT": "37.1300010680001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -122.04000091599994, 37.13000106800007 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 36, "ID": 25, "CARID": "CAR694", "ARB_SITES": "NA", "ID2": "NA", "sitelocati": "Arcata Lucchesi Tract (Humboldt County, CA)", "Name": "Lucchesi Tract", "LONG_": "-124.063606262", "LAT": "40.8752708440001", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -124.063606261999951, 40.875270844000056 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 37, "ID": 49, "CARID": "CAR1180", "ARB_SITES": "NA", "ID2": "CAFR5280", "sitelocati": "Mailliard Ranch (Mendocino County, CA)", "Name": "Mailliard Ranch", "LONG_": "-123.36000061", "LAT": "39.9199981690001", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -123.360000609999986, 39.919998169000053 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 38, "ID": 4, "CARID": "CAR429", "ARB_SITES": "NA", "ID2": "CAFR0073", "sitelocati": "McCloud River       (McCloud, CA)", "Name": "McCloud River", "LONG_": "-122", "LAT": "41.200000763", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -122.0, 41.200000763000048 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 39, "ID": 50, "CARID": "CAR1183", "ARB_SITES": "NA", "ID2": "CAFR5283", "sitelocati": "Forest Carbon Partners-Mescalero Apache Tribe (Otero & Lincoln County, NM)", "Name": "Mescalero Apache Tribe", "LONG_": "-105.650001526", "LAT": "33.1699981690001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -105.650001525999983, 33.169998169000053 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 40, "ID": 56, "CARID": "CAR1215", "ARB_SITES": "NA", "ID2": "CAFR5315", "sitelocati": "Molpus Ataya (Campbell & Claiforne Counties, TN)", "Name": "Molpus Ataya", "LONG_": "-83.88999939", "LAT": "36.5400009160001", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -83.889999389999957, 36.540000916000054 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 41, "ID": 44, "CARID": "CAR1102", "ARB_SITES": "NA", "ID2": "CAFR5148", "sitelocati": "Montesol Forest Carbon (Napa and Lake County, CA)", "Name": "Montesol Forest Carbon", "LONG_": "-122.564170837", "LAT": "38.670829773", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -122.564170836999949, 38.670829773000037 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 42, "ID": 24, "CARID": "CAR688", "ARB_SITES": "NA", "ID2": "CAFR0028", "sitelocati": "Blue Source – Noles North  Forest Project (Washington and Hyde Counties, NC)", "Name": "Noles North  Forest Project", "LONG_": "-76.54750061", "LAT": "35.881111145", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -76.547500609999986, 35.881111145000034 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 43, "ID": 16, "CARID": "CAR659", "ARB_SITES": "NA", "ID2": "CAFR0026", "sitelocati": "Blue Source – Pungo River Forest Conservation Project (Washington County, NC)", "Name": "Pungo River Forest", "LONG_": "-76.640266418", "LAT": "35.8041610720001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -76.640266417999953, 35.804161072000056 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 44, "ID": 35, "CARID": "CAR1015", "ARB_SITES": "NA", "ID2": "CAFR0100", "sitelocati": "Rips Redwoods (Sonoma County, CA)", "Name": "Rips Redwoods", "LONG_": "-123.212095428", "LAT": "38.711239613", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.212095427999941, 38.711239613000032 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 45, "ID": 5, "CARID": "CAR430", "ARB_SITES": "NA", "ID2": "NA", "sitelocati": "RPH Ranch           (Comptche, Mendocino County, CA)", "Name": "RPH Ranch", "LONG_": "-123.589996338", "LAT": "39.2599983220001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.58999633799999, 39.259998322000058 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 46, "ID": 37, "CARID": "CAR1041", "ARB_SITES": "NA", "ID2": "CAFR5038", "sitelocati": "Sacramento Canyon ARB001 (Shasta County, CA)", "Name": "Sacramento Canyon", "LONG_": "-122.290000916", "LAT": "41.0499992370001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -122.29000091599994, 41.049999237000065 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 47, "ID": 40, "CARID": "CAR1067", "ARB_SITES": "NA", "ID2": "CAFR5063", "sitelocati": "Sustainable Mountain (Humboldt County, CA (near Willow Creek)", "Name": "Sustainable Mountain", "LONG_": "-123.760002136", "LAT": "40.9099998470001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.760002135999969, 40.909999847000051 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 48, "ID": 1, "CARID": "CAR101", "ARB_SITES": null, "ID2": "CAFR0049", "sitelocati": "The Van Eck Forest (Humboldt County, CA)", "Name": "The Van Eck Forest", "LONG_": "-124.080001831", "LAT": "40.869998932", "Verified": 2 }, "geometry": { "type": "Point", "coordinates": [ -124.080001830999947, 40.869998932000044 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 49, "ID": 38, "CARID": "CAR1046", "ARB_SITES": "NA", "ID2": "CAFR5076", "sitelocati": "Trinity Timberlands University Hill Project (Trinity County, CA)", "Name": "Trinity Timberlands", "LONG_": "-123.5", "LAT": "40.5800018310001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.5, 40.580001831000061 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 50, "ID": 52, "CARID": "CAR1197", "ARB_SITES": "NA", "ID2": "CAFR5297", "sitelocati": "Upper Hudson Woodlands ATP, LP (Warren, Hamilton, Essex, Washington, Saratoga and Fulton, NY)", "Name": "Upper Hudson Woodlands", "LONG_": "-74.3300018309999", "LAT": "43.8800010680001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.330001830999947, 43.88000106800007 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 51, "ID": 28, "CARID": "CAR730", "ARB_SITES": "CAR1139", "ID2": "CAFR0123", "sitelocati": "Usal Redwood Forest (Mendocino County, CA)", "Name": "Usal Redwood Forest", "LONG_": "-123.846932045", "LAT": "39.8760633530001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.84693204499996, 39.876063353000063 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 52, "ID": 23, "CARID": "CAR686", "ARB_SITES": "CAR1160", "ID2": "CAFR0058", "sitelocati": "Virginia Conservation Forestry Program – Clifton Farm (Near Rosedale, VA)", "Name": "Virginia Conservation Forest", "LONG_": "-78.693336487", "LAT": "37.4941711430001", "Verified": 0 }, "geometry": { "type": "Point", "coordinates": [ -78.693336486999954, 37.494171143000074 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 53, "ID": 36, "CARID": "CAR1032", "ARB_SITES": "NA", "ID2": "CAFR5037", "sitelocati": "Virginia Highlands I (Russell, Buchanan and Dickenson Counties, VA)", "Name": "Virginia Highlands I", "LONG_": "-82.3472213749999", "LAT": "37.0847206120001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -82.347221374999947, 37.084720612000069 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 54, "ID": 57, "CARID": "CAR1217", "ARB_SITES": "NA", "ID2": "CAFR5317", "sitelocati": "West Grand Lake (Washington County, ME)", "Name": "West Grand Lake", "LONG_": "-67.7499999999999", "LAT": "45.229999542", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -67.75, 45.22999954200003 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 55, "ID": 18, "CARID": "CAR661", "ARB_SITES": "CAR1140", "ID2": "CAFR0001", "sitelocati": "Willits Woods (Near Willitis, CA)", "Name": "Willits Woods", "LONG_": "-123.357223511", "LAT": "39.4113883970001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.357223510999972, 39.411388397000053 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 56, "ID": 54, "CARID": "CAR1209", "ARB_SITES": "NA", "ID2": "CAFR5309", "sitelocati": "Wolf River (Antigo, WI)", "Name": "Wolf River", "LONG_": "-88.86000061", "LAT": "45.229999542", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -88.860000609999986, 45.22999954200003 ] } },
-{ "type": "Feature", "properties": { "OBJECTID": 57, "ID": 30, "CARID": "CAR777", "ARB_SITES": "NA", "ID2": "CAFR0064", "sitelocati": "Yurok Tribe Sustainable Forest Project (Northwest Humboldt County, CA)", "Name": "Yurok Tribe Sustainable Forest", "LONG_": "-123.799943006", "LAT": "41.4058304000001", "Verified": 1 }, "geometry": { "type": "Point", "coordinates": [ -123.799943005999978, 41.40583040000007 ] } }
-]
+{  
+   "type":"FeatureCollection",
+   "name":"ARB_Sites_v1",
+   "features":[  
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":1,
+            "ID":6,
+            "CARID":"CAR497",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0029",
+            "sitelocati":"Blue Source – Alligator River (Hyde County, NC)",
+            "Name":"Alligator River",
+            "LONG_":"-76.030512271",
+            "LAT":"35.630839483",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.030512270999964,
+               35.630839483000045
+            ]
+         },
+		 "id":6
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":2,
+            "ID":15,
+            "CARID":"CAR658",
+            "ARB_SITES":"CAR1134",
+            "ID2":"CAFR0087",
+            "sitelocati":"Finite Carbon – Brosnan Forest (Near Charleston, SC)",
+            "Name":"Brosnan Forest",
+            "LONG_":"-80.449996948",
+            "LAT":"33.1666717530001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -80.449996947999978,
+               33.16667175300006
+            ]
+         },
+		 "id":15
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":3,
+            "ID":10,
+            "CARID":"CAR645",
+            "ARB_SITES":"CAR1088",
+            "ID2":"CAFR0080",
+            "sitelocati":"Finite Carbon – The Forestland Group Champion Property (Franklin, St. Lawrence & Lewis Counties, NY)",
+            "Name":"Champion Property",
+            "LONG_":"-74.9999999999999",
+            "LAT":"44.2999992370001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -75.0,
+               44.299999237000065
+            ]
+         },
+		 "id":10
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":4,
+            "ID":14,
+            "CARID":"CAR657",
+            "ARB_SITES":"CAR1063",
+            "ID2":"CAFR0002",
+            "sitelocati":"Finite Carbon Farm Cove Community Forest Project (Near Grand Lake Stream, Maine)",
+            "Name":"Farm Cove Community Forest Project",
+            "LONG_":"-67.8509512269999",
+            "LAT":"45.1873169030001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -67.850951226999939,
+               45.187316903000067
+            ]
+         },
+		 "id":14
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":5,
+            "ID":19,
+            "CARID":"CAR672",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0116",
+            "sitelocati":"Hershey Mountain (North of Concord, NH)",
+            "Name":"Hershey Mountain",
+            "LONG_":"-71.6666564939999",
+            "LAT":"43.566669464",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -71.666656493999938,
+               43.566669464000029
+            ]
+         },
+		 "id":19
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":6,
+            "ID":29,
+            "CARID":"CAR749",
+            "ARB_SITES":"CAR1109",
+            "ID2":"CAFR0063",
+            "sitelocati":"Green Assets – Middleton (Charleston, SC)",
+            "Name":"Middleton Place Avoided Conversion Project",
+            "LONG_":"-80.140556335",
+            "LAT":"32.900001526",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -80.140556334999985,
+               32.90000152600004
+            ]
+         },
+		 "id":29
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":7,
+            "ID":32,
+            "CARID":"CAR802",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0027",
+            "sitelocati":"Noles South Forest Project (Washington County, NC)",
+            "Name":"Noles South Forest Project",
+            "LONG_":"-76.547782898",
+            "LAT":"35.8647193910001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.54778289799998,
+               35.864719391000051
+            ]
+         },
+		 "id":32
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":8,
+            "ID":48,
+            "CARID":"CAR1175",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5195",
+            "sitelocati":"Finite Carbon – Passamaquoddy Tribe (Frankin, Somerset, Penobscot, Hancock, and Washington Counties, ME)",
+            "Name":"Passamaquoddy Tribe",
+            "LONG_":"-67.6300958689999",
+            "LAT":"45.2880452910001",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -67.630095868999945,
+               45.28804529100006
+            ]
+         },
+		 "id":48
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":9,
+            "ID":20,
+            "CARID":"CAR676",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0031",
+            "sitelocati":"Pocosin Lakes Forest Conservation Project (Tyrrell County, NC)",
+            "Name":"Pocosin Lakes Forest",
+            "LONG_":"-76.209159851",
+            "LAT":"35.861938477",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.209159850999981,
+               35.861938477000024
+            ]
+         },
+		 "id":20
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":10,
+            "ID":12,
+            "CARID":"CAR648",
+            "ARB_SITES":"CAR1086",
+            "ID2":"CAFR0047",
+            "sitelocati":"Finite Carbon – Potlatch Moro Big Pine CE (Calhoun County, AR)",
+            "Name":"Potlatch Moro Big Pine",
+            "LONG_":"-92.5400009159999",
+            "LAT":"33.5000000000001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -92.54000091599994,
+               33.5
+            ]
+         },
+		 "id":12
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":11,
+            "ID":26,
+            "CARID":"CAR696",
+            "ARB_SITES":"CAR1159",
+            "ID2":"CAFR0057",
+            "sitelocati":"Rich Mountain (Russell & Washington Counties, NW of Saltville, VA)",
+            "Name":"Rich Mountain",
+            "LONG_":"-82.029845154",
+            "LAT":"36.8313801040001",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -82.029845153999986,
+               36.831380104000061
+            ]
+         },
+		 "id":26
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":12,
+            "ID":31,
+            "CARID":"CAR780",
+            "ARB_SITES":"CAR1062",
+            "ID2":"CAFR0088",
+            "sitelocati":"Shannondale Tree Farm (Washington County, NC)",
+            "Name":"Shannondale Tree Farm",
+            "LONG_":"-91.449996948",
+            "LAT":"37.3666610720001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -91.449996947999978,
+               37.366661072000056
+            ]
+         },
+		 "id":31
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":13,
+            "ID":27,
+            "CARID":"CAR697",
+            "ARB_SITES":"CAR1147",
+            "ID2":"CAFR0102",
+            "sitelocati":"Tazewell – Elk Garden (Russell, Washington, and Tazewell Co. near Tazewel)",
+            "Name":"Tazewell – Elk Garden",
+            "LONG_":"-81.559448242",
+            "LAT":"37.1236114500001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -81.559448241999974,
+               37.123611450000055
+            ]
+         },
+		 "id":27
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":14,
+            "ID":55,
+            "CARID":"CAR1213",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5313",
+            "sitelocati":"MWF Adirondacks (Franklin, St. Lawrence & Lewis Counties, NY)",
+            "Name":"Adirondacks",
+            "LONG_":"-74.910003662",
+            "LAT":"44.3499984740001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.910003661999951,
+               44.349998474000074
+            ]
+         },
+		 "id":55
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":15,
+            "ID":13,
+            "CARID":"CAR655",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0105",
+            "sitelocati":"Alder Stream Preserve (Piscataquis County, ME)",
+            "Name":"Alder Stream Preserve",
+            "LONG_":"-69.014634073",
+            "LAT":"45.1138059350001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -69.014634072999968,
+               45.113805935000073
+            ]
+         },
+		 "id":13
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":16,
+            "ID":53,
+            "CARID":"CAR1204",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5304",
+            "sitelocati":"AMC Silver Lake (Piscataquis & Aroostock Counties, ME)",
+            "Name":"AMC Silver Lake",
+            "LONG_":"-69.150001526",
+            "LAT":"45.4399986270001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -69.150001525999983,
+               45.43999862700008
+            ]
+         },
+		 "id":53
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":17,
+            "ID":33,
+            "CARID":"CAR935",
+            "ARB_SITES":"NA",
+            "ID2":"NA",
+            "sitelocati":"Arcata City Barnum Tract (Arcata, CA)",
+            "Name":"Arcata City Barnum Tract",
+            "LONG_":"-124.049388366",
+            "LAT":"40.876230105",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -124.04938836599996,
+               40.876230105000047
+            ]
+         },
+		 "id":33
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":18,
+            "ID":7,
+            "CARID":"CAR575",
+            "ARB_SITES":"NA",
+            "ID2":"NA",
+            "sitelocati":"Arcata Sunnybrae Tract (Humbodlt County, CA)",
+            "Name":"Arcata Sunnybrae Tract",
+            "LONG_":"-124.050167828",
+            "LAT":"40.8643067730001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -124.050167827999985,
+               40.864306773000067
+            ]
+         },
+		 "id":7
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":19,
+            "ID":42,
+            "CARID":"CAR1094",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5095",
+            "sitelocati":"Ashford III (Ashford, WA)",
+            "Name":"Ashford III",
+            "LONG_":"-122.040000916",
+            "LAT":"46.4599990840001",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -122.04000091599994,
+               46.45999908400006
+            ]
+         },
+		 "id":42
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":20,
+            "ID":3,
+            "CARID":"CAR408",
+            "ARB_SITES":"CAR1100",
+            "ID2":"CAFR0041",
+            "sitelocati":"Big River \/ Salmon Creek Forests (Mendocino, CA)",
+            "Name":"Big River \/ Salmon Creek Forests",
+            "LONG_":"-123.66968328",
+            "LAT":"39.300879579",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.669683279999958,
+               39.300879579000025
+            ]
+         },
+		 "id":3
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":21,
+            "ID":41,
+            "CARID":"CAR1092",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5087",
+            "sitelocati":"Big Valley (Near Aiden, CA)",
+            "Name":"Big Valley",
+            "LONG_":"-121.239997864",
+            "LAT":"41.1300010680001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -121.239997863999974,
+               41.13000106800007
+            ]
+         },
+		 "id":41
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":22,
+            "ID":8,
+            "CARID":"CAR582",
+            "ARB_SITES":"CAR1130",
+            "ID2":"CAFR0103",
+            "sitelocati":"Finite Carbon – MWF Brimstone IFM Project I (Scott County, TN)",
+            "Name":"Brimstone IFM Project I",
+            "LONG_":"-84.454719543",
+            "LAT":"36.2722206120001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -84.454719542999953,
+               36.272220612000069
+            ]
+         },
+		 "id":8
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":23,
+            "ID":43,
+            "CARID":"CAR1095",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5096",
+            "sitelocati":"Brushy Mountain (Mendocino County, CA)",
+            "Name":"Brushy Mountain",
+            "LONG_":"-123.260002136",
+            "LAT":"39.6300010680001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.260002135999969,
+               39.63000106800007
+            ]
+         },
+		 "id":43
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":24,
+            "ID":39,
+            "CARID":"CAR1066",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5058",
+            "sitelocati":"Buck Mountain ARB002 (Siskiyou County, CA)",
+            "Name":"Buck Mountain",
+            "LONG_":"-121.849998474",
+            "LAT":"41.3800010680001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -121.84999847399996,
+               41.38000106800007
+            ]
+         },
+		 "id":39
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":25,
+            "ID":34,
+            "CARID":"CAR1013",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5055",
+            "sitelocati":"Buckeye Forest Project (Sonoma County, CA)",
+            "Name":"Buckeye Forest",
+            "LONG_":"-123.309997559",
+            "LAT":"38.7400016780001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.309997558999953,
+               38.740001678000056
+            ]
+         },
+		 "id":34
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":26,
+            "ID":47,
+            "CARID":"CAR1114",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5114",
+            "sitelocati":"Crane Valley (Humboldt, CA)",
+            "Name":"Crane Valley",
+            "LONG_":"-123.606376648",
+            "LAT":"40.712501526",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.60637664799998,
+               40.71250152600004
+            ]
+         },
+		 "id":47
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":27,
+            "ID":22,
+            "CARID":"CAR683",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0030",
+            "sitelocati":"Francis Beidler Project (Berkely, Dorchester and Orangeburg Counties, SC)",
+            "Name":"Francis Beidler Project",
+            "LONG_":"-80.358348038",
+            "LAT":"33.3212620520001",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -80.358348037999974,
+               33.321262052000066
+            ]
+         },
+		 "id":22
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":28,
+            "ID":46,
+            "CARID":"CAR1104",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5150",
+            "sitelocati":"Forest Carbon Partners – Gabrych Ranch Project (Humboldt County and Trinity County, CA)",
+            "Name":"Gabrych Ranch Project",
+            "LONG_":"-123.606376648",
+            "LAT":"40.712501526",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.60637664799998,
+               40.71250152600004
+            ]
+         },
+		 "id":46
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":29,
+            "ID":2,
+            "CARID":"CAR102",
+            "ARB_SITES":"CAR1098",
+            "ID2":"CAFR0040",
+            "sitelocati":"Garcia River Forest (Mendocino, CA)",
+            "Name":"Garcia River Forest",
+            "LONG_":"-123.510002136",
+            "LAT":"38.9099998470001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.510002135999969,
+               38.909999847000051
+            ]
+         },
+		 "id":2
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":30,
+            "ID":45,
+            "CARID":"CAR1103",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5149",
+            "sitelocati":"Forest Carbon Partners – Glass Ranch Improved Forest Management Project (Humboldt County, CA)",
+            "Name":"Glass Ranch Improved Forest",
+            "LONG_":"-123.643890381",
+            "LAT":"40.34582901",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.643890380999949,
+               40.345829010000045
+            ]
+         },
+		 "id":45
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":31,
+            "ID":17,
+            "CARID":"CAR660",
+            "ARB_SITES":"CAR1099",
+            "ID2":"CAFR0042",
+            "sitelocati":"Gualala River Forest (Southern Mendocino County, Near Gualala, CA)",
+            "Name":"Gualala River Forest",
+            "LONG_":"-123.402474887",
+            "LAT":"38.7961548070001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.402474886999983,
+               38.79615480700005
+            ]
+         },
+		 "id":17
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":32,
+            "ID":51,
+            "CARID":"CAR1191",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5291",
+            "sitelocati":"Hollow Tree (Mendicino County, CA)",
+            "Name":"Hollow Tree",
+            "LONG_":"-123.782348912",
+            "LAT":"39.8499151990001",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.782348911999975,
+               39.849915199000066
+            ]
+         },
+		 "id":51
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":33,
+            "ID":21,
+            "CARID":"CAR681",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0106",
+            "sitelocati":"Howland Research Forest (Howland, ME)",
+            "Name":"Howland Research Forest",
+            "LONG_":"-68.6266708369999",
+            "LAT":"45.2463912960001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -68.626670836999949,
+               45.24639129600007
+            ]
+         },
+		 "id":21
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":34,
+            "ID":11,
+            "CARID":"CAR646",
+            "ARB_SITES":"NA",
+            "ID2":"NA",
+            "sitelocati":"Katahdin Iron Works Ecological Reserve (Piscataquis County, ME)",
+            "Name":"Katahdin Iron Works Ecological Reserve",
+            "LONG_":"-69.1699981689999",
+            "LAT":"45.450000763",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -69.169998168999939,
+               45.450000763000048
+            ]
+         },
+		 "id":11
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":35,
+            "ID":9,
+            "CARID":"CAR590",
+            "ARB_SITES":"NA",
+            "ID2":"NA",
+            "sitelocati":"Lompico Forest Carbon Project (Santa Cruz County, CA)",
+            "Name":"Lompico Forest",
+            "LONG_":"-122.040000916",
+            "LAT":"37.1300010680001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -122.04000091599994,
+               37.13000106800007
+            ]
+         },
+		 "id":9
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":36,
+            "ID":25,
+            "CARID":"CAR694",
+            "ARB_SITES":"NA",
+            "ID2":"NA",
+            "sitelocati":"Arcata Lucchesi Tract (Humboldt County, CA)",
+            "Name":"Lucchesi Tract",
+            "LONG_":"-124.063606262",
+            "LAT":"40.8752708440001",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -124.063606261999951,
+               40.875270844000056
+            ]
+         },
+		 "id":25
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":37,
+            "ID":49,
+            "CARID":"CAR1180",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5280",
+            "sitelocati":"Mailliard Ranch (Mendocino County, CA)",
+            "Name":"Mailliard Ranch",
+            "LONG_":"-123.36000061",
+            "LAT":"39.9199981690001",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.360000609999986,
+               39.919998169000053
+            ]
+         },
+		 "id":49
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":38,
+            "ID":4,
+            "CARID":"CAR429",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0073",
+            "sitelocati":"McCloud River       (McCloud, CA)",
+            "Name":"McCloud River",
+            "LONG_":"-122",
+            "LAT":"41.200000763",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -122.0,
+               41.200000763000048
+            ]
+         },
+		 "id":4
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":39,
+            "ID":50,
+            "CARID":"CAR1183",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5283",
+            "sitelocati":"Forest Carbon Partners-Mescalero Apache Tribe (Otero & Lincoln County, NM)",
+            "Name":"Mescalero Apache Tribe",
+            "LONG_":"-105.650001526",
+            "LAT":"33.1699981690001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -105.650001525999983,
+               33.169998169000053
+            ]
+         },
+		 "id":50
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":40,
+            "ID":56,
+            "CARID":"CAR1215",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5315",
+            "sitelocati":"Molpus Ataya (Campbell & Claiforne Counties, TN)",
+            "Name":"Molpus Ataya",
+            "LONG_":"-83.88999939",
+            "LAT":"36.5400009160001",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -83.889999389999957,
+               36.540000916000054
+            ]
+         },
+		 "id":56
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":41,
+            "ID":44,
+            "CARID":"CAR1102",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5148",
+            "sitelocati":"Montesol Forest Carbon (Napa and Lake County, CA)",
+            "Name":"Montesol Forest Carbon",
+            "LONG_":"-122.564170837",
+            "LAT":"38.670829773",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -122.564170836999949,
+               38.670829773000037
+            ]
+         },
+		 "id":44
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":42,
+            "ID":24,
+            "CARID":"CAR688",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0028",
+            "sitelocati":"Blue Source – Noles North  Forest Project (Washington and Hyde Counties, NC)",
+            "Name":"Noles North  Forest Project",
+            "LONG_":"-76.54750061",
+            "LAT":"35.881111145",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.547500609999986,
+               35.881111145000034
+            ]
+         },
+		 "id":24
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":43,
+            "ID":16,
+            "CARID":"CAR659",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0026",
+            "sitelocati":"Blue Source – Pungo River Forest Conservation Project (Washington County, NC)",
+            "Name":"Pungo River Forest",
+            "LONG_":"-76.640266418",
+            "LAT":"35.8041610720001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.640266417999953,
+               35.804161072000056
+            ]
+         },
+		 "id":16
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":44,
+            "ID":35,
+            "CARID":"CAR1015",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0100",
+            "sitelocati":"Rips Redwoods (Sonoma County, CA)",
+            "Name":"Rips Redwoods",
+            "LONG_":"-123.212095428",
+            "LAT":"38.711239613",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.212095427999941,
+               38.711239613000032
+            ]
+         },
+		 "id":35
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":45,
+            "ID":5,
+            "CARID":"CAR430",
+            "ARB_SITES":"NA",
+            "ID2":"NA",
+            "sitelocati":"RPH Ranch           (Comptche, Mendocino County, CA)",
+            "Name":"RPH Ranch",
+            "LONG_":"-123.589996338",
+            "LAT":"39.2599983220001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.58999633799999,
+               39.259998322000058
+            ]
+         },
+		 "id":5
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":46,
+            "ID":37,
+            "CARID":"CAR1041",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5038",
+            "sitelocati":"Sacramento Canyon ARB001 (Shasta County, CA)",
+            "Name":"Sacramento Canyon",
+            "LONG_":"-122.290000916",
+            "LAT":"41.0499992370001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -122.29000091599994,
+               41.049999237000065
+            ]
+         },
+		 "id":37
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":47,
+            "ID":40,
+            "CARID":"CAR1067",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5063",
+            "sitelocati":"Sustainable Mountain (Humboldt County, CA (near Willow Creek)",
+            "Name":"Sustainable Mountain",
+            "LONG_":"-123.760002136",
+            "LAT":"40.9099998470001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.760002135999969,
+               40.909999847000051
+            ]
+         },
+		 "id":40
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":48,
+            "ID":1,
+            "CARID":"CAR101",
+            "ARB_SITES":null,
+            "ID2":"CAFR0049",
+            "sitelocati":"The Van Eck Forest (Humboldt County, CA)",
+            "Name":"The Van Eck Forest",
+            "LONG_":"-124.080001831",
+            "LAT":"40.869998932",
+            "Verified":2
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -124.080001830999947,
+               40.869998932000044
+            ]
+         },
+		 "id":1
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":49,
+            "ID":38,
+            "CARID":"CAR1046",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5076",
+            "sitelocati":"Trinity Timberlands University Hill Project (Trinity County, CA)",
+            "Name":"Trinity Timberlands",
+            "LONG_":"-123.5",
+            "LAT":"40.5800018310001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.5,
+               40.580001831000061
+            ]
+         },
+		 "id":38
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":50,
+            "ID":52,
+            "CARID":"CAR1197",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5297",
+            "sitelocati":"Upper Hudson Woodlands ATP, LP (Warren, Hamilton, Essex, Washington, Saratoga and Fulton, NY)",
+            "Name":"Upper Hudson Woodlands",
+            "LONG_":"-74.3300018309999",
+            "LAT":"43.8800010680001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.330001830999947,
+               43.88000106800007
+            ]
+         },
+		 "id":52
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":51,
+            "ID":28,
+            "CARID":"CAR730",
+            "ARB_SITES":"CAR1139",
+            "ID2":"CAFR0123",
+            "sitelocati":"Usal Redwood Forest (Mendocino County, CA)",
+            "Name":"Usal Redwood Forest",
+            "LONG_":"-123.846932045",
+            "LAT":"39.8760633530001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.84693204499996,
+               39.876063353000063
+            ]
+         },
+		 "id":28
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":52,
+            "ID":23,
+            "CARID":"CAR686",
+            "ARB_SITES":"CAR1160",
+            "ID2":"CAFR0058",
+            "sitelocati":"Virginia Conservation Forestry Program – Clifton Farm (Near Rosedale, VA)",
+            "Name":"Virginia Conservation Forest",
+            "LONG_":"-78.693336487",
+            "LAT":"37.4941711430001",
+            "Verified":0
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -78.693336486999954,
+               37.494171143000074
+            ]
+         },
+		 "id":23
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":53,
+            "ID":36,
+            "CARID":"CAR1032",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5037",
+            "sitelocati":"Virginia Highlands I (Russell, Buchanan and Dickenson Counties, VA)",
+            "Name":"Virginia Highlands I",
+            "LONG_":"-82.3472213749999",
+            "LAT":"37.0847206120001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -82.347221374999947,
+               37.084720612000069
+            ]
+         },
+		 "id":36
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":54,
+            "ID":57,
+            "CARID":"CAR1217",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5317",
+            "sitelocati":"West Grand Lake (Washington County, ME)",
+            "Name":"West Grand Lake",
+            "LONG_":"-67.7499999999999",
+            "LAT":"45.229999542",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -67.75,
+               45.22999954200003
+            ]
+         },
+		 "id":57
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":55,
+            "ID":18,
+            "CARID":"CAR661",
+            "ARB_SITES":"CAR1140",
+            "ID2":"CAFR0001",
+            "sitelocati":"Willits Woods (Near Willitis, CA)",
+            "Name":"Willits Woods",
+            "LONG_":"-123.357223511",
+            "LAT":"39.4113883970001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.357223510999972,
+               39.411388397000053
+            ]
+         },
+		 "id":18
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":56,
+            "ID":54,
+            "CARID":"CAR1209",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR5309",
+            "sitelocati":"Wolf River (Antigo, WI)",
+            "Name":"Wolf River",
+            "LONG_":"-88.86000061",
+            "LAT":"45.229999542",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -88.860000609999986,
+               45.22999954200003
+            ]
+         },
+		 "id":54
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":57,
+            "ID":30,
+            "CARID":"CAR777",
+            "ARB_SITES":"NA",
+            "ID2":"CAFR0064",
+            "sitelocati":"Yurok Tribe Sustainable Forest Project (Northwest Humboldt County, CA)",
+            "Name":"Yurok Tribe Sustainable Forest",
+            "LONG_":"-123.799943006",
+            "LAT":"41.4058304000001",
+            "Verified":1
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -123.799943005999978,
+               41.40583040000007
+            ]
+         },
+		 "id":30
+      }
+   ]
 }
