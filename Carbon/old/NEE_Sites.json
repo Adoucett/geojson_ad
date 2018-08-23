@@ -3,22 +3,21 @@
   "crs" : {
     "type" : "name",
     "properties" : {
-      "name" : "EPSG:3857"
+      "name" : "EPSG:4326"
     }
   },
   "features" : [
     {
       "type" : "Feature",
-      "id" : 0,
+      "id" : 1,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          16489804.209422737,
-          -4262882.7706051981
+          148.13043153462866,
+          -35.725257404827573
         ]
       },
       "properties" : {
-        "FID" : 0,
         "OBJECTID_1" : 1,
         "OBJECTID" : 1,
         "NEE_Site" : "Australia",
@@ -31,16 +30,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 1,
+      "id" : 2,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          1260136.6018078378,
-          5961682.9952289183
+          11.319999694824162,
+          47.119998931884822
         ]
       },
       "properties" : {
-        "FID" : 1,
         "OBJECTID_1" : 2,
         "OBJECTID" : 2,
         "NEE_Site" : "Austria",
@@ -53,16 +51,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 2,
+      "id" : 3,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          503164.09626235213,
-          6676313.6576060085
+          4.5199999809265705,
+          51.310001373291016
         ]
       },
       "properties" : {
-        "FID" : 2,
         "OBJECTID_1" : 3,
         "OBJECTID" : 3,
         "NEE_Site" : "Belgium",
@@ -75,16 +72,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 3,
+      "id" : 4,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -6894016.0987994382,
-          -1127934.0244047886
+          -61.930000305175724,
+          -10.079999923705998
         ]
       },
       "properties" : {
-        "FID" : 3,
         "OBJECTID_1" : 4,
         "OBJECTID" : 4,
         "NEE_Site" : "Brazil",
@@ -97,16 +93,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 4,
+      "id" : 5,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -13952072.854701385,
-          6423325.85237482
+          -125.33360290527338,
+          49.867298126220703
         ]
       },
       "properties" : {
-        "FID" : 4,
         "OBJECTID_1" : 5,
         "OBJECTID" : 5,
         "NEE_Site" : "Canada-British Columbia",
@@ -119,16 +114,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 5,
+      "id" : 6,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -10962833.852847021,
-          7534488.5514772385
+          -98.480812072753793,
+          55.879619598388672
         ]
       },
       "properties" : {
-        "FID" : 5,
         "OBJECTID_1" : 6,
         "OBJECTID" : 6,
         "NEE_Site" : "Canada-Manitoba",
@@ -141,16 +135,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 6,
+      "id" : 7,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -9146009.7712395005,
-          6143533.5526127676
+          -82.160003662109318,
+          48.220001220703125
         ]
       },
       "properties" : {
-        "FID" : 6,
         "OBJECTID_1" : 7,
         "OBJECTID" : 7,
         "NEE_Site" : "Canada-Ontario",
@@ -163,16 +156,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 7,
+      "id" : 8,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -8275724.9447945477,
-          6393191.7704941081
+          -74.34210205078125,
+          49.692501068115348
         ]
       },
       "properties" : {
-        "FID" : 7,
         "OBJECTID_1" : 8,
         "OBJECTID" : 8,
         "NEE_Site" : "Canada-Quebec",
@@ -185,16 +177,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 8,
+      "id" : 9,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -11701905.177937018,
-          7168262.9589402424
+          -105.12000274658192,
+          53.990001678466797
         ]
       },
       "properties" : {
-        "FID" : 8,
         "OBJECTID_1" : 9,
         "OBJECTID" : 9,
         "NEE_Site" : "Canada-Saskatchewan",
@@ -207,16 +198,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 9,
+      "id" : 10,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          12527461.603330461,
-          2652989.8127786638
+          112.53610229492199,
+          23.173299789428768
         ]
       },
       "properties" : {
-        "FID" : 9,
         "OBJECTID_1" : 10,
         "OBJECTID" : 10,
         "NEE_Site" : "China",
@@ -229,16 +219,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 10,
+      "id" : 11,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          1296872.0252766213,
-          7457552.1558245812
+          11.649999618530273,
+          55.490001678466854
         ]
       },
       "properties" : {
-        "FID" : 10,
         "OBJECTID_1" : 11,
         "OBJECTID" : 11,
         "NEE_Site" : "Denmark",
@@ -251,16 +240,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 11,
+      "id" : 12,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          2704484.7431823346,
-          8823049.2477620505
+          24.2947998046875,
+          61.84740066528326
         ]
       },
       "properties" : {
-        "FID" : 11,
         "OBJECTID_1" : 12,
         "OBJECTID" : 12,
         "NEE_Site" : "Finland",
@@ -273,16 +261,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 12,
+      "id" : 13,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          3458318.1816849923,
-          9128898.7660812382
+          31.066600799560604,
+          63.116600036621094
         ]
       },
       "properties" : {
-        "FID" : 12,
         "OBJECTID_1" : 13,
         "OBJECTID" : 13,
         "NEE_Site" : "Finland",
@@ -295,16 +282,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 13,
+      "id" : 14,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          786427.67363900004,
-          6219759.3654906983
+          7.0645999908447266,
+          48.674198150634766
         ]
       },
       "properties" : {
-        "FID" : 13,
         "OBJECTID_1" : 14,
         "OBJECTID" : 14,
         "NEE_Site" : "France",
@@ -317,16 +303,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 14,
+      "id" : 15,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          309479.32828706189,
-          5425294.6084426809
+          2.7801001071931069,
+          43.740001678466854
         ]
       },
       "properties" : {
-        "FID" : 14,
         "OBJECTID_1" : 15,
         "OBJECTID" : 15,
         "NEE_Site" : "France",
@@ -339,16 +324,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 15,
+      "id" : 16,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          1163622.6449058042,
-          6635315.3929428151
+          10.453000068664664,
+          51.07920074462902
         ]
       },
       "properties" : {
-        "FID" : 15,
         "OBJECTID_1" : 16,
         "OBJECTID" : 16,
         "NEE_Site" : "Germany",
@@ -361,16 +345,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 16,
+      "id" : 17,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          1517651.9946377559,
-          6465733.2304726103
+          13.63329982757574,
+          50.11222076416027
         ]
       },
       "properties" : {
-        "FID" : 16,
         "OBJECTID_1" : 17,
         "OBJECTID" : 17,
         "NEE_Site" : "Germany",
@@ -383,16 +366,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 17,
+      "id" : 18,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          1853716.6256344509,
-          5934867.320055387
+          16.652219772338924,
+          46.955829620361442
         ]
       },
       "properties" : {
-        "FID" : 17,
         "OBJECTID_1" : 18,
         "OBJECTID" : 18,
         "NEE_Site" : "Hungary",
@@ -405,16 +387,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 18,
+      "id" : 19,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          974242.05130136653,
-          6797724.8039357234
+          8.7517652511597248,
+          51.986721038818359
         ]
       },
       "properties" : {
-        "FID" : 18,
         "OBJECTID_1" : 19,
         "OBJECTID" : 19,
         "NEE_Site" : "Ireland",
@@ -427,16 +408,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 19,
+      "id" : 20,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -1103917.575949701,
-          6785059.5584404459
+          -9.9166603088378906,
+          51.916599273681697
         ]
       },
       "properties" : {
-        "FID" : 19,
         "OBJECTID_1" : 20,
         "OBJECTID" : 20,
         "NEE_Site" : "Ireland",
@@ -449,16 +429,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 20,
+      "id" : 21,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          3901748.067374201,
-          3676983.8032542733
+          35.04999923706049,
+          31.340000152588004
         ]
       },
       "properties" : {
-        "FID" : 20,
         "OBJECTID_1" : 21,
         "OBJECTID" : 21,
         "NEE_Site" : "Israel",
@@ -471,16 +450,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 21,
+      "id" : 22,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          15819612.904576132,
-          5630972.425612432
+          142.11000061035156,
+          45.060001373291016
         ]
       },
       "properties" : {
-        "FID" : 21,
         "OBJECTID_1" : 22,
         "OBJECTID" : 22,
         "NEE_Site" : "Japan",
@@ -493,16 +471,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 22,
+      "id" : 23,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          15446943.323871443,
-          4225824.2030129414
+          138.76225280761719,
+          35.45454025268549
         ]
       },
       "properties" : {
-        "FID" : 22,
         "OBJECTID_1" : 23,
         "OBJECTID" : 23,
         "NEE_Site" : "Japan",
@@ -515,16 +492,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 23,
+      "id" : 24,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          15138832.45725641,
-          4158935.6505882014
+          135.99444580078125,
+          34.963600158691463
         ]
       },
       "properties" : {
-        "FID" : 23,
         "OBJECTID_1" : 24,
         "OBJECTID" : 24,
         "NEE_Site" : "Japan",
@@ -537,16 +513,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 24,
+      "id" : 25,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          15297863.941105289,
-          4320744.6256841924
+          137.42304992675781,
+          36.146110534667969
         ]
       },
       "properties" : {
-        "FID" : 24,
         "OBJECTID_1" : 25,
         "OBJECTID" : 25,
         "NEE_Site" : "Japan",
@@ -559,16 +534,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 25,
+      "id" : 26,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -12293378.300008975,
-          2769659.8230520566
+          -110.43329620361322,
+          24.133300781250057
         ]
       },
       "properties" : {
-        "FID" : 25,
         "OBJECTID_1" : 26,
         "OBJECTID" : 26,
         "NEE_Site" : "Mexico",
@@ -581,16 +555,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 26,
+      "id" : 27,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          638973.85167438723,
-          6830921.8624976594
+          5.7399997711182209,
+          52.169998168945369
         ]
       },
       "properties" : {
-        "FID" : 26,
         "OBJECTID_1" : 27,
         "OBJECTID" : 27,
         "NEE_Site" : "Netherlands",
@@ -603,16 +576,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 27,
+      "id" : 28,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -957347.6632871622,
-          4670234.980887454
+          -8.6000003814696697,
+          38.639999389648494
         ]
       },
       "properties" : {
-        "FID" : 27,
         "OBJECTID_1" : 28,
         "OBJECTID" : 28,
         "NEE_Site" : "Portugal",
@@ -625,16 +597,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 28,
+      "id" : 29,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -360552.69274276658,
-          7923686.5905002626
+          -3.2388999462127686,
+          57.79169845581049
         ]
       },
       "properties" : {
-        "FID" : 28,
         "OBJECTID_1" : 29,
         "OBJECTID" : 29,
         "NEE_Site" : "United Kingdom",
@@ -647,16 +618,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 29,
+      "id" : 30,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -94621.569828339692,
-          6641944.8934018472
+          -0.85000002384180107,
+          51.116600036621207
         ]
       },
       "properties" : {
-        "FID" : 29,
         "OBJECTID_1" : 30,
         "OBJECTID" : 30,
         "NEE_Site" : "United Kingdom",
@@ -669,16 +639,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 30,
+      "id" : 31,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -16459202.28665329,
-          9573234.7943875454
+          -147.85552978515628,
+          64.866271972656307
         ]
       },
       "properties" : {
-        "FID" : 30,
         "OBJECTID_1" : 31,
         "OBJECTID" : 31,
         "NEE_Site" : "US-Alaska",
@@ -691,16 +660,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 31,
+      "id" : 32,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -16621225.006209061,
-          10629419.063293763
+          -149.31100463867187,
+          68.605796813964901
         ]
       },
       "properties" : {
-        "FID" : 31,
         "OBJECTID_1" : 32,
         "OBJECTID" : 32,
         "NEE_Site" : "US-Alaska",
@@ -713,16 +681,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 32,
+      "id" : 33,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -16619533.199983012,
-          10629724.069132572
+          -149.2958068847656,
+          68.606796264648551
         ]
       },
       "properties" : {
-        "FID" : 32,
         "OBJECTID_1" : 33,
         "OBJECTID" : 33,
         "NEE_Site" : "US-Alaska",
@@ -735,16 +702,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 33,
+      "id" : 34,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -12437426.427713338,
-          4183276.9778162595
+          -111.72730255126953,
+          35.142601013183537
         ]
       },
       "properties" : {
-        "FID" : 33,
         "OBJECTID_1" : 34,
         "OBJECTID" : 34,
         "NEE_Site" : "US-Arizona",
@@ -757,16 +723,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 34,
+      "id" : 35,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -12441289.045542683,
-          4175982.5711959586
+          -111.76200103759766,
+          35.089000701904354
         ]
       },
       "properties" : {
-        "FID" : 34,
         "OBJECTID_1" : 35,
         "OBJECTID" : 35,
         "NEE_Site" : "US-Arizona",
@@ -779,16 +744,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 35,
+      "id" : 36,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -12442379.54714622,
-          4224575.2047739923
+          -111.77179718017578,
+          35.445400238037109
         ]
       },
       "properties" : {
-        "FID" : 35,
         "OBJECTID_1" : 36,
         "OBJECTID" : 36,
         "NEE_Site" : "US-Arizona",
@@ -801,16 +765,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 36,
+      "id" : 37,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -13465871.355884729,
-          4640576.9308290835
+          -120.96598052978516,
+          38.431598663330078
         ]
       },
       "properties" : {
-        "FID" : 36,
         "OBJECTID_1" : 37,
         "OBJECTID" : 37,
         "NEE_Site" : "US-California",
@@ -823,16 +786,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 37,
+      "id" : 38,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -13542349.999885306,
-          4594788.532053791
+          -121.65299987792969,
+          38.108669281005859
         ]
       },
       "properties" : {
-        "FID" : 37,
         "OBJECTID_1" : 38,
         "OBJECTID" : 38,
         "NEE_Site" : "US-California",
@@ -845,16 +807,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 38,
+      "id" : 39,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -13464170.20735522,
-          4637976.8328532996
+          -120.95069885253901,
+          38.413299560546989
         ]
       },
       "properties" : {
-        "FID" : 38,
         "OBJECTID_1" : 39,
         "OBJECTID" : 39,
         "NEE_Site" : "US-California",
@@ -867,16 +828,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 39,
+      "id" : 40,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -9146374.1210743338,
-          3472066.6363637527
+          -82.163276672363281,
+          29.754770278930607
         ]
       },
       "properties" : {
-        "FID" : 39,
         "OBJECTID_1" : 40,
         "OBJECTID" : 40,
         "NEE_Site" : "US-Florida",
@@ -889,16 +849,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 40,
+      "id" : 41,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -9146374.1210743338,
-          3472066.6363637527
+          -82.163276672363281,
+          29.754770278930607
         ]
       },
       "properties" : {
-        "FID" : 40,
         "OBJECTID_1" : 41,
         "OBJECTID" : 41,
         "NEE_Site" : "US-Florida",
@@ -911,16 +870,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 41,
+      "id" : 42,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -9619462.4230385106,
-          4768073.5391680831
+          -86.413101196289006,
+          39.323200225830192
         ]
       },
       "properties" : {
-        "FID" : 41,
         "OBJECTID_1" : 42,
         "OBJECTID" : 42,
         "NEE_Site" : "US-Indiana",
@@ -933,16 +891,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 42,
+      "id" : 43,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -10429589.60962241,
-          5157220.2209811239
+          -93.690597534179631,
+          41.974899291992301
         ]
       },
       "properties" : {
-        "FID" : 42,
         "OBJECTID_1" : 43,
         "OBJECTID" : 43,
         "NEE_Site" : "US-Iowa",
@@ -955,16 +912,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 43,
+      "id" : 44,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -10429803.633301614,
-          5157332.747629581
+          -93.692520141601563,
+          41.975650787353572
         ]
       },
       "properties" : {
-        "FID" : 43,
         "OBJECTID_1" : 44,
         "OBJECTID" : 44,
         "NEE_Site" : "US-Iowa",
@@ -977,16 +933,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 44,
+      "id" : 45,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -10429920.836744985,
-          5157193.3747180095
+          -93.693572998046875,
+          41.97472000122076
         ]
       },
       "properties" : {
-        "FID" : 44,
         "OBJECTID_1" : 45,
         "OBJECTID" : 45,
         "NEE_Site" : "US-Iowa",
@@ -999,16 +954,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 45,
+      "id" : 46,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -7652123.6411336958,
-          5653710.5348561089
+          -68.74019622802723,
+          45.2041015625
         ]
       },
       "properties" : {
-        "FID" : 45,
         "OBJECTID_1" : 46,
         "OBJECTID" : 46,
         "NEE_Site" : "US-Maine",
@@ -1021,16 +975,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 46,
+      "id" : 47,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -8034094.7588803852,
-          5241882.8039993877
+          -72.171501159667912,
+          42.537799835205135
         ]
       },
       "properties" : {
-        "FID" : 46,
         "OBJECTID_1" : 47,
         "OBJECTID" : 47,
         "NEE_Site" : "US-Massachusetts",
@@ -1043,16 +996,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 47,
+      "id" : 48,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -9430296.9147386774,
-          5710085.1814632723
+          -84.713798522949219,
+          45.559799194335938
         ]
       },
       "properties" : {
-        "FID" : 47,
         "OBJECTID_1" : 48,
         "OBJECTID" : 48,
         "NEE_Site" : "US-Michigan",
@@ -1065,16 +1017,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 48,
+      "id" : 49,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -10263656.711419692,
-          4685081.9084044723
+          -92.199996948242131,
+          38.744098663330192
         ]
       },
       "properties" : {
-        "FID" : 48,
         "OBJECTID_1" : 49,
         "OBJECTID" : 49,
         "NEE_Site" : "US-Missouri",
@@ -1087,16 +1038,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 49,
+      "id" : 50,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -10739730.303988568,
-          5036718.2702541575
+          -96.476638793945256,
+          41.165058135986385
         ]
       },
       "properties" : {
-        "FID" : 49,
         "OBJECTID_1" : 50,
         "OBJECTID" : 50,
         "NEE_Site" : "US-Nebraska",
@@ -1109,16 +1059,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 50,
+      "id" : 51,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -10735612.896064941,
-          5038878.9448943846
+          -96.439651489257756,
+          41.179668426513672
         ]
       },
       "properties" : {
-        "FID" : 50,
         "OBJECTID_1" : 51,
         "OBJECTID" : 51,
         "NEE_Site" : "US-Nebraska",
@@ -1131,16 +1080,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 51,
+      "id" : 52,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -11878012.693904821,
-          4077554.5492374939
+          -106.70200347900391,
+          34.362300872802791
         ]
       },
       "properties" : {
-        "FID" : 51,
         "OBJECTID_1" : 52,
         "OBJECTID" : 52,
         "NEE_Site" : "US-New Mexico",
@@ -1153,16 +1101,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 52,
+      "id" : 53,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -8804635.2085153963,
-          4296659.1270841081
+          -79.0933837890625,
+          35.971199035644531
         ]
       },
       "properties" : {
-        "FID" : 52,
         "OBJECTID_1" : 53,
         "OBJECTID" : 53,
         "NEE_Site" : "US-North Carolina",
@@ -1175,16 +1122,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 53,
+      "id" : 54,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -8805419.9620057847,
-          4296986.5478771776
+          -79.100433349609318,
+          35.973579406738395
         ]
       },
       "properties" : {
-        "FID" : 53,
         "OBJECTID_1" : 54,
         "OBJECTID" : 54,
         "NEE_Site" : "US-North Carolina",
@@ -1197,16 +1143,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 54,
+      "id" : 55,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -8804726.0836490225,
-          4297617.8052541846
+          -79.094200134277344,
+          35.978168487548828
         ]
       },
       "properties" : {
-        "FID" : 54,
         "OBJECTID_1" : 55,
         "OBJECTID" : 55,
         "NEE_Site" : "US-North Carolina",
@@ -1219,16 +1164,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 55,
+      "id" : 56,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -13531708.266947374,
-          5535705.7008318584
+          -121.55740356445307,
+          44.452301025390682
         ]
       },
       "properties" : {
-        "FID" : 55,
         "OBJECTID_1" : 56,
         "OBJECTID" : 56,
         "NEE_Site" : "US-Oregon",
@@ -1241,16 +1185,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 56,
+      "id" : 57,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -9387842.0906284638,
-          4291143.7802512199
+          -84.332420349121094,
+          35.931091308593693
         ]
       },
       "properties" : {
-        "FID" : 56,
         "OBJECTID_1" : 57,
         "OBJECTID" : 57,
         "NEE_Site" : "US-Tennessee",
@@ -1263,16 +1206,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 57,
+      "id" : 58,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -13575623.038297843,
-          5751630.6386694312
+          -121.95189666748047,
+          45.820499420166072
         ]
       },
       "properties" : {
-        "FID" : 57,
         "OBJECTID_1" : 58,
         "OBJECTID" : 58,
         "NEE_Site" : "US-Washington",
@@ -1285,16 +1227,15 @@
     },
     {
       "type" : "Feature",
-      "id" : 58,
+      "id" : 59,
       "geometry" : {
         "type" : "Point",
         "coordinates" : [
-          -10049066.548911579,
-          5771683.8858506978
+          -90.272300720214844,
+          45.945899963378963
         ]
       },
       "properties" : {
-        "FID" : 58,
         "OBJECTID_1" : 59,
         "OBJECTID" : 59,
         "NEE_Site" : "US-Wisconsin",
