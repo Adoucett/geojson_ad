@@ -1,0 +1,347 @@
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Planet Alpha Test Map v2</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<style>
+    #menu {
+        background: #fff;
+        position: absolute;
+        z-index: 1;
+        top: 10px;
+        right: 10px;
+        border-radius: 3px;
+        width: 120px;
+        border: 1px solid rgba(0,0,0,0.4);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #menu a {
+        font-size: 13px;
+        color: #404040;
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0,0,0,0.25);
+        text-align: center;
+    }
+
+    #menu a:last-child {
+        border: none;
+    }
+
+    #menu a:hover {
+        background-color: #f8f8f8;
+        color: #404040;
+    }
+
+    #menu a.active {
+        background-color: #3887be;
+        color: #ffffff;
+    }
+
+    #menu a.active:hover {
+        background: #3074a4;
+    }
+</style>
+
+<nav id="menu"></nav>
+<div id="map"></div>
+	 
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoicGxhbmV0YWxwaGEiLCJhIjoiY2piM3p2bHl0MXhrdTJxbjJoYWZ0aTdsaCJ9.7rSS3ij4FyR71MCjFrOPuw'; 
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/planetalpha/cjl74bn1i1d2w2sk0dhdf2e49',
+      center: [-87.661557, 41.893748],
+      zoom: 3.5
+    });
+	
+		var hoveredStateId =  null;
+//		var layerList = document.getElementById('menu');
+//		var inputs = layerList.getElementsByTagName('input');
+	
+    // code from the next step will go here
+	
+
+	map.on('load', function () {
+    map.addSource("dots_src", {
+        "type": "geojson",
+        "data": "https://raw.githubusercontent.com/Adoucett/geojson_ad/master/Carbon/ARB_Sites_v1.geojson"
+    });
+	
+	 map.addLayer({
+        "id": "dots",
+        "type": "circle",
+        "source": "dots_src",
+        "layout": {},
+        "paint": {
+			   "circle-radius": ["case",
+                ["boolean", ["feature-state", "hover"], false],
+                16,
+                12
+            ],
+				"circle-opacity": ["case",
+                ["boolean", ["feature-state", "hover"], false],
+                .8,
+                0
+            ],
+			"circle-color": ["case",
+                ["boolean", ["feature-state", "hover"], false],
+                "#27AE60",
+                "#468ACB"
+            ]
+        }
+    });
+	
+	
+
+	
+	
+    // Hover Mouseover ///
+	
+    map.on('mousemove', "dots", function(e) {
+        
+            if (hoveredStateId) {
+                map.setFeatureState({source: 'dots_src', id: hoveredStateId}, { hover: false});
+            }
+            hoveredStateId = e.features[0].id;
+            map.setFeatureState({source: 'dots_src', id: hoveredStateId}, { hover: true});       
+    });
+
+    // When the mouse leaves the state-fill layer, update the feature state of the
+    // previously hovered feature.
+    map.on("mouseleave", "dots", function() {
+        if (hoveredStateId) {
+            map.setFeatureState({source: 'dots_src', id: hoveredStateId}, { hover: false});
+        }
+		
+        hoveredStateId =  null;
+		
+    });
+});	
+	
+	/// Hover Mouseover ///
+	
+	
+	/// CLustering ////
+	
+	
+	map.on('load', function() {
+    // Add a new source from our GeoJSON data and set the
+    // 'cluster' option to true. GL-JS will add the point_count property to your source data.
+    map.addSource("loc_points", {
+        type: "geojson",
+        // Point to GeoJSON data. This example visualizes all M1.0+ earthquakes
+        // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
+        data: "https://raw.githubusercontent.com/Adoucett/geojson_ad/master/Carbon/ARB_Sites_v1.geojson",
+        cluster: true,
+        clusterMaxZoom: 6, // Max zoom to cluster points on
+        clusterRadius: 60 // Radius of each cluster when clustering points (defaults to 50)
+    });
+
+    map.addLayer({
+        id: "clusters",
+        type: "circle",
+        source: "loc_points",
+        filter: ["has", "point_count"],
+        paint: {
+            // Use step expressions (https://www.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
+            // with three steps to implement three types of circles:
+            //   * Blue, 20px circles when point count is less than 100
+            //   * Yellow, 30px circles when point count is between 100 and 750
+            //   * Pink, 40px circles when point count is greater than or equal to 750
+            "circle-color": [
+                "step",
+                ["get", "point_count"],
+                "#51bbd6",
+                10,
+                "#51bbd6",
+                20,
+                "#51bbd6"
+            ],
+            "circle-radius": [
+                "step",
+                ["get", "point_count"],
+                20,
+                5,
+                30,
+                20,
+                40
+            ],
+			"circle-opacity": [
+			"interpolate",
+			["linear"],
+			["zoom"],
+				0,
+				1,
+				7,
+				0.3
+			] 
+        }
+    });
+
+    map.addLayer({
+        id: "cluster-count",
+        type: "symbol",
+        source: "loc_points",
+        filter: ["has", "point_count"],
+        layout: {
+            "text-field": "{point_count_abbreviated}",
+            "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+            "text-size": 14
+        }
+    });
+	
+
+	/// Clustering ////
+	
+	
+	///  Pop-Up Menus ///
+	
+	map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['nee-sites'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML(
+	
+	 '<font size="2" face="arial">' +
+	'<h3>' + feature.properties.Name + '</h3><p>' + '<b>Site Code: </b>'+ feature.properties.Site_Name  + '</p>'+ '<b>Biome: </b>' + feature.properties.Biome  + '</p>'+ '<b>Class: </b>' + feature.properties.landclass  + '</p>'+ '<p>' +  '<a href=" ' + feature.properties.URL + '"target="_blank"><strong>AmeriFlux Site Link</strong></a>' +
+	'</font>'
+	
+	)
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+});
+	
+
+	map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['arb-sites'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML(
+	
+	'<font size="2" face="arial">' +
+	'<h3>' + feature.properties.Name + '</h3><p>' + '<h4>' + '<b>Project ID: </b>'  + feature.properties.CARID + '</h4></p>' + '<b>Class: </b>' + feature.properties.landclass + '</p>'+ '</p>'+ '<p>' +  '<a href=" ' + feature.properties.URL + '"target="_blank"><strong>Project Site Link</strong></a>' +
+	'</font>'
+	
+	
+	)
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+});	
+	
+	
+	
+	/// Pop-Up Menus//////
+	
+	
+	
+	
+	
+	
+	
+	/// Cursor Styling /////
+	
+	
+
+	
+	
+	    map.on("mouseenter", 'dots', function(e) {
+        // Change the cursor style as a UI indicator.
+        map.getCanvas().style.cursor = 'pointer';
+		 });
+		 
+		   map.on('mouseleave', 'dots', function() {
+        map.getCanvas().style.cursor = '';
+        
+    }); 
+		 
+		 
+	/// Cursor Styling /// 
+	
+	//Nav Controls ///
+	
+var nav = new mapboxgl.NavigationControl();
+map.addControl(nav, 'top-left');
+});
+
+	/// Nav Controls ///
+	
+	// Toggle Layers //
+	
+	var toggleableLayerIds = [ 'Land Use Overlay'];
+
+for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = id;
+
+    link.onclick = function (e) {
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+            this.className = '';
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+        }
+    };
+
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+</script>
+
+  </body>
+  
+  
+</html>
